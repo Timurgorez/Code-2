@@ -1,0 +1,38 @@
+.navi {
+    padding: 15px 0;
+    background-color: #282C37;
+
+}
+.navi ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navi li{
+    border-right: 1px solid grey;
+}
+.navi ul li:nth-child(5){
+    border-right: none ;
+}
+
+.navi ul li a {
+    
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    cursor: pointer;
+    padding: 0 30px;
+}
+.navi ul li a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: width .3s ease-in-out;
+}
+.navi ul li a:hover:after,
+.navi ul li a:focus:after {
+    width: 100%;
+}
+
