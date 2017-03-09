@@ -1,8 +1,0 @@
-
-#main ul li a {
-	display: block;
-}
-
-#main > ul > li > ul {
-	display: none;
-}
